@@ -1,0 +1,75 @@
+body{
+    background-image:url(projectt.jpeg);
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+   background-size: cover ;
+}
+
+p{
+    text-align: left;
+
+}
+table{
+    text-align: center;
+}
+
+
+h1{
+   
+    color: #d36446;
+ text-align:center;
+}
+h2{
+   
+    color:#213163;
+ text-align:left;
+}
+h3{
+    color: #d36446;
+ text-align:left;
+}
+
+.nav_menu {
+ overflow: hidden;
+ background-color:#213163 ;
+ }
+
+ .nav_menu a {
+ float:inline-start;
+  font-family: Arial, Helvetica, sans-serif;
+ display: block;
+ color:white;
+ font-weight: bold;
+ text-align:center;
+ padding: 14px 16px;
+ text-decoration: none;
+ }
+
+ .nav_menu a:hover {
+ background-color: rgb(204, 216, 215);
+ color:#213163;
+ }
+
+ .footer{
+    background-color:#d36446 ;
+    text-align:auto;
+ }
+ 
+form{
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+  border: 1px solid;
+  text-align: center;
+  background-color: white;
+}
+
+table{ 
+margin-left: auto;
+  margin-right:auto;
+  width: 65%;
+  border: 1px solid;
+  text-align: center;
+  background-color: white;
+
+}
