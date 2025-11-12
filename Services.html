@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="mysheetproject1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+</head>
+<body>
+      <img src="../Desktop/logoProject.jpeg" width="400" height="200">
+
+
+<div class="nav_menu">
+    <nav>
+      <a href="indexx.html">Home</a>
+        <a href="AboutUs.html">About us</a>
+        <a href="Adopt.html">Adopt</a>
+        <a href="Products.html">Products</a>
+        <a href="Services.html">Services</a>
+    
+    </nav>
+</div>
+
+<br>
+    
+<table border="2" width="800"> 
+<tr> 
+<th>Picture</th>
+<th>Service</th>
+<th>Information about the service</th>
+<th>Price</th>
+</tr>
+
+<tr> 
+<td> <img src="healthcheckup.jpg" width="300" height="150"> </td>
+<td>General Health Checkup</td>
+<td> Regular health exams to ensure your pet stays healthy and detect any issues early.</td>
+<td >170 SAR</td>
+</tr>
+
+<tr> 
+<td> <img src="vaccination.jpg" width="300" height="150"> </td>
+<td>Vaccinations And Preventive Care </td>
+<td> Protect your pet from common diseases with timely vaccines and preventive treatments.</td>
+<td >200-250 SAR</td>
+</tr>
+
+<tr> 
+<td> <img src="cleanin.jpg" width="300" height="150"> </td>
+<td>Bathing And hair Trimming  </td>
+<td>Keep your pet clean, fresh, and comfortable with gentle bathing and grooming services.</td>
+<td >300-575 SAR</td>
+</tr>
+
+<tr> 
+<td> <img src="Nail.jpg" width="300" height="150"> </td>
+<td>Nail Clipping and Ear Cleaning </td>
+<td>Maintain your pet’s hygiene and comfort with safe nail trimming and ear cleaning.</td>
+<td >50-60 SAR</td>
+</tr>
+
+
+<tr> 
+<td> <img src="Dental.jpg" width="300" height="150"> </td>
+<td>Dental Cleaning and Oral Care </td>
+<td>Prevent bad breath and dental issues with professional teeth cleaning and oral care.</td>
+<td >250-400 SAR</td>
+</tr>
+
+<tr> 
+<td> <img src="surgeries.jpg" width="300" height="150"> </td>
+<td>Surgeries </td>
+<td>We perform safe and professional surgical procedures with advanced equipment and care</td>
+<td >Start from 600 SAR</td>
+</tr>
+
+
+<tr> 
+<td> <img src="Certificates.jpg" width="300" height="150"> </td>
+<td>Pet Health Certificates for Travel </td>
+<td>Official health checks and certificates to ensure your pet is ready for safe travel.</td>
+<td >200-300 SAR</td>
+</tr>
+
+
+<tr> 
+<td> <img src="Emergnency.jpg" width="300" height="150"> </td>
+<td>24/7 Emergnency Care </td>
+<td> Round-the-clock medical support for urgent or life-threatening pet emergencies.</td>
+<td >Starting from 150 SAR</td>
+</tr>
+
+
+    </table>
+	<hr color="orange" size="10"/>
+
+		 <form >
+			<h2 >Please Complete The Application </h2>
+			<label for="Fname" style="font-size: 175%">First name: </label> <input type="text" id="Fname" name="Fname" value="">
+			<br>
+			<label for="Lname" style="font-size: 175%"> Last name: </label> <input type="text" id="Lname" name="Lname" value="">
+			<br>
+			<label for="Date" style="font-size: 175%"> Date: </label> <input type="date" id="date" name="date" value="dd\mm\yy">
+            <br>
+            <label for="time" style="font-size: 175%"> Time: </label> <input type="time" id="time" name="time" value="">
+            <br>
+            <label for="Services" style="font-size: 175%"> Choose the service: </label><select id="Services" name="Services">
+					<option value="Choose">Choose</option>
+					<option value="">General Health Checkup</option>
+					<option value="">Vaccinations And Preventive Care </option>
+					<option value="">Bathing And hair Trimming </option>
+					<option value="">Nail Clipping and Ear Cleaning</option>
+					<option value="">Dental Cleaning and Oral Care</option>
+					<option value="">Surgeries</option>
+                    <option value="">Pet Health Certificates for Travel</option>
+					<option value="">24/7 Emergnency Care</option>
+				</select>
+
+			<br>
+				<label for="Animals" style="font-size: 175%"> Choose your animal: </label><select id="Animals" name="Animals">
+					<option value="Choose">Choose</option>
+					<option value="cat">Cat</option>
+					<option value="Dog">Dog</option>
+					<option value="Bird">Bird</option>
+					<option value="Fish">Fish</option>
+					<option value="Rabbit">Rabbit</option>
+					<option value="Hamster">Hamster</option>
+					<option value="Turtle">Turtle</option>
+                    <label for="others" style="font-size: 175%">Others</label> <input type="text" id="others" name="others" value="others">
+				</select>
+				<br>
+                <label for="number" style="font-size: 175%">Phone number:</label> <input type="text" id="phone" name="phone" value="">
+                <br>
+				<label for="Email" style="font-size: 175%">Email Address:</label> <input type="text" id="Email" name="Email" value="">
+				<br>
+				
+				<button type="button" onclick="showPopup()">Next</button>
+                <button type="reset">Reset</button>
+                <br><br>
+				</form>
+
+<div class="footer">
+			<p>Contact us </p>
+            <p>Phone number: 050873265</p>
+			<P>instagram: tiny_pows</P>
+			<p>EMAIL:tinyPows@gmail.com</p>
+		</div>
+
+    <script>
+        function showPopup() {
+            alert("✅ Your application has been received! Thank you.");
+            window.location.href = "homepage.html"; 
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
